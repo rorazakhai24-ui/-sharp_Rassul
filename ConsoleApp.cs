@@ -6,7 +6,8 @@ class Program
     {
 
         Console.WriteLine("1 – Online Store Order\n2 – Cinema Ticket\n3 – Gym Membership");
-        Console.Write("Your Choice: 2\n\n");
+        Console.Write("Your option: ");
+        string option = Console.ReadLine();
 
         Console.Write("Movie Title: ");
         string movieTitle = Console.ReadLine();
